@@ -1,0 +1,179 @@
+body{
+    background-image: url("../pic1/body1.png");
+    background-size: 100% 100%;
+      
+}
+header{
+    height: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+.one >li{
+    display: inline-block;
+    margin-left: 2%;
+    padding-left:1.5%;
+    height: 35px;
+    text-align: center;
+    border-left: outset 6px #008CBA    ;
+    border-bottom: outset 4px #008CBA    ;
+    border-radius: 35%;
+
+
+}
+.one img{
+    height: 60px;
+    width: 80px;
+    margin-right:10% ;
+    margin-left: 12%;
+}
+
+.one >li a{
+    text-decoration:none;
+    font-size:16px;
+    text-transform: uppercase;
+    font-family: monospace;
+    color:#008CBA    ;
+    font-weight: 600;
+    text-align: center;
+    height: 100%;
+    letter-spacing: 2px;
+    width:100%;
+
+}
+.one >li a:hover {
+   
+   color: black;
+}
+.one >li .ab{
+    color: black;
+}
+.div1 img{
+    
+    border: solid #dee 1px;
+   
+    width:100%;
+    height: 830px;
+    
+}
+
+.inf{
+    position: absolute;
+    left: 7%;
+    top:78%;
+    width: 55%;
+    
+}
+.div2{
+    font-size: 32px;
+    font-family: sans-serif;
+    margin: 8%;
+    font-weight: bold;
+    text-indent: 100px;
+}
+input ,textarea{
+    display: block;
+    margin: 4%;
+    width:70%;
+    height: 60px;
+    border: solid white 2px;
+    border-radius: 20px ;
+    text-indent:50px;
+    background-color: #dee;
+    font-weight: bold;
+    font-size: 15px;
+    outline: none;
+
+}
+textarea{
+   height: 180px;
+   text-indent: 40px;
+   font-weight: bolder;
+   font-size: 20px;
+}
+.send{
+    width: 25%;
+    margin-left: 150px;
+    margin-top:30px;
+    background-color:white    ;
+    color: #008CBA ;
+    border: outset 2px #008CBA;
+    text-indent: 10px;
+    font-size:18px;
+    }
+.send:hover{
+    background-color:#008CBA     ;
+    color: white ;
+  
+  
+    }
+.div4{
+    width: 20%;
+   position: absolute;
+   right: 16%;
+   top: 110%;
+   transition: .5s ease;
+  
+  
+}
+.div4:hover{
+    position: absolute;
+   right: 15%;
+   top: 120%;
+}
+
+
+footer 
+    {
+
+    height:350px;
+    
+    
+    }
+.fol{
+  margin: 5%;  
+  display: block;
+}
+    
+.fol img
+    {
+        
+        width: 25%;
+        height: 22%;
+    }
+.fol img:hover
+    {
+     opacity: .7;  
+     transform: rotate(360deg);
+     transition: ease 1s;
+     }
+     /*2*/
+.cont{
+   position: absolute;
+   top: 20%;
+   left: 43%;
+   z-index: +5;
+   width: 21%;
+ 
+   
+}
+.cont span{
+    color: #008CBA ;
+    font-size: 55px;
+    font-weight: 900;
+    font-family: fantasy;
+    text-shadow: 1px 1px black;
+    opacity: .8;
+}
+.cont p{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: fantasy;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    color: red;
+    letter-spacing: 1px;
+    opacity: .8;
+
+}
+ 
